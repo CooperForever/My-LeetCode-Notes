@@ -1,7 +1,6 @@
+//概念复习 Ο(1)＜ Ο(log2n)＜ Ο(n)＜ Ο(nlog2n)＜ Ο(n2)＜ Ο(n3)＜…＜ Ο(2n)＜ Ο(n!)
 /**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
+ * 解法一:暴力循环
  */
 var twoSum = function (nums, target) {
   for (let i = 0; i < nums.length; i++) {
@@ -11,4 +10,4 @@ var twoSum = function (nums, target) {
     }
   }
 };
-// 执行用时148ms
+// 执行用时148ms 时间复杂度 O(n^2)
